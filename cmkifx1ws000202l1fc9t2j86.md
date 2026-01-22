@@ -251,4 +251,4 @@ Teams may choose to treat a shared server as a coordination point, but the core 
 
 To understand how Git handles tracking and history internally, the next article will focus on:
 
-> **Give it a Read:** [**How Git Works Internally: Building a Mental Model**](https://dhruvbhartia.hashnode.dev/how-git-works-internally-building-a-mental-model?showSharer=true)
+> **Give it a Read:** [**How Git Works Internally: Building a Mental Model**](https://dhruvbhartia07.hashnode.dev/how-git-works-internally-building-a-mental-model?showSharer=true)
