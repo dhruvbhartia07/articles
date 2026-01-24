@@ -64,7 +64,7 @@ To understand this better, let’s look at a simple story.
 
 ### The Setup
 
-Three friends — **Alice, Bob, and Charlie** — are in college and decide to build a personal profile website together.  
+Three friends - **Alice, Bob, and Charlie** - are in college and decide to build a personal profile website together.  
 They do not know about any version control system.
 
 The application has three components:
@@ -202,7 +202,7 @@ Even systems that allow multiple people to edit at the same time show how diffic
 
 This is where the illusion of **parallelism vs concurrency** becomes clear.
 
-There is a gap — and manual coordination is not enough to fill it.
+There is a gap - and manual coordination is not enough to fill it.
 
 ---
 
