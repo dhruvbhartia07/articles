@@ -53,7 +53,7 @@ There is some sense of versioning here, but no real tracking or collaboration.
 
 ---
 
-#### Method 2: Centralized Version Control (CVCS – e.g., SVN)
+#### Method 2: Centralized Version Control (CVCS - e.g., SVN)
 
 A better approach was to introduce a **central server**.
 
@@ -113,7 +113,7 @@ Each commit becomes a reference to the state of the entire repository at that mo
 
 Before version control systems existed, managing projects was error-prone and difficult.
 
-When VCS was introduced, it helped—but early implementations came with their own limitations.
+When VCS was introduced, it helped - but early implementations came with their own limitations.
 
 The evolution roughly looks like this:
 
