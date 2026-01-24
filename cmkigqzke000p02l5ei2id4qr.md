@@ -105,6 +105,8 @@ One interesting design choice in Git is that it **does not store file diffs**.
 Instead, Git stores **snapshots of the repository at a point in time**.  
 Each commit becomes a reference to the state of the entire repository at that moment.
 
+> If you are interested more in this, I have linked an article explaining git internals at the end of this article.
+
 ---
 
 ## Why Git is Used
@@ -359,3 +361,9 @@ git reset --soft HEAD~1
 ```bash
 git reset --hard HEAD~1
 ```
+
+---
+
+> Below is the article in which we go through practical example to understand git internals, give it a read:
+> 
+> [**How Git Works Internally: Building a Mental Model**](https://dhruvbhartia07.hashnode.dev/how-git-works-internally-building-a-mental-model)
