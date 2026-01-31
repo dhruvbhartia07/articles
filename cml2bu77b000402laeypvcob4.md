@@ -2,7 +2,7 @@
 title: "How Does a Browser Know Where a Website Lives?"
 seoTitle: "How Browsers Locate Websites"
 seoDescription: "Discover how browsers use DNS to find the correct server for a website. Learn about DNS records, including NS, A, CNAME, and MX records"
-datePublished: Tue Dec 30 2025 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cml2bu77b000402laeypvcob4
 slug: how-does-a-browser-know-where-a-website-lives
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769864769138/9a41b3d8-efdc-4231-b547-7c1f5b44d3b0.png
