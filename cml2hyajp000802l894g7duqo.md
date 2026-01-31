@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with cURL"
+seoTitle: "Beginner's Guide to cURL"
 seoDescription: "Learn the basics of using cURL to test backend APIs, troubleshoot servers, and perform requests from the command line"
 datePublished: Sat Jan 31 2026 15:58:44 GMT+0000 (Coordinated Universal Time)
 cuid: cml2hyajp000802l894g7duqo
