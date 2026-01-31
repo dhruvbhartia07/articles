@@ -292,3 +292,5 @@ Resolvers are heavily relied upon, so caching at this layer has a **huge impact*
 
 Operating systems also have their own DNS configurations, which are checked before external resolution.  
 This is rarely used in day-to-day browsing but is extremely useful for **personal testing and overrides**.
+
+> **Note:** The command outputs mentioned are trimmed to highlight main part of the response. The actual response for the commands discussed will have much more details.
