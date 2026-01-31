@@ -62,8 +62,6 @@ An **NS (Name Server) record** tells the resolver **where to look next**.
     → “You need to ask *this server* for more information about the domain”
     
 
-In simple terms, NS records guide the resolver step-by-step until it reaches the server that has the final answer.
-
 ---
 
 ## A and AAAA Records - The Actual Address
@@ -134,9 +132,9 @@ That’s why **MX (Mail Exchange)** records exist.
 
 If MX records don’t exist:
 
-* A records *can* be used
+* A/AAAA records *act as fallback*
     
-* But then the web server must also handle mail logic
+* But then the web server must also handle mail logic =&gt; Web Server + SMTP server
     
 
 To keep things simple and clean:
@@ -203,15 +201,13 @@ Step-by-step flow:
     
 6. Authoritative server replies with a **CNAME record** mapped to Vercel
     
-7. Resolver sees the CNAME and checks cache
+7. The resolver performs a fresh lookup for the target domain, using cache where possible.
     
-8. Resolver queries TLD again to find authoritative server for Vercel
+8. Resolver queries Vercel’s authoritative name server
     
-9. Resolver queries Vercel’s authoritative name server
+9. Gets an **A record**
     
-10. Gets an **A record**
-    
-11. Resolver returns the IP to the browser
+10. Resolver returns the IP to the browser
     
 
 At this point, the browser finally knows **where the website lives**.
