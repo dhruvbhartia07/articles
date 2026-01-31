@@ -2,7 +2,7 @@
 title: "How DNS Resolution Works (Using dig to See What’s Actually Happening)"
 seoTitle: "DNS Resolution with dig: A Practical Guide"
 seoDescription: "Discover how DNS converts domain names to IP addresses, how `dig` reveals the process, and explore the full DNS resolution path"
-datePublished: Sat Jan 31 2026 11:51:35 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cml294gdd000w02l70cvobqes
 slug: how-dns-resolution-works-using-dig-to-see-whats-actually-happening
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769860168905/7125c9cf-93d5-49b1-89aa-0e1afbc0533a.png
@@ -195,6 +195,8 @@ This includes:
     
 * (other record types not discussed here)
     
+
+> To know more about record types, can check article: [**How Does a Browser Know Where a Website Lives**](https://dhruvbhartia07.hashnode.dev/how-does-a-browser-know-where-a-website-lives)
 
 For `google.com`, we can inspect them using:
 
