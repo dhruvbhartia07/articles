@@ -78,7 +78,7 @@ Commercial support is available at
 Here, cURL fetched the **raw HTML** from the server.
 
 If we open the same URL in a browser, we see a nicely rendered page.  
-The content is the same — the difference is that the **browser knows how to render HTML**, while cURL just prints it as text.
+The content is the same - the difference is that the **browser knows how to render HTML**, while cURL just prints it as text.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769874794525/aeefab1a-a545-4b87-80e5-10a6063d4cf3.png align="center")
 
