@@ -2,11 +2,11 @@
 title: "Getting Started with cURL"
 seoTitle: "Beginner's Guide to cURL"
 seoDescription: "Learn the basics of using cURL to test backend APIs, troubleshoot servers, and perform requests from the command line"
-datePublished: Sat Jan 31 2026 15:58:44 GMT+0000 (Coordinated Universal Time)
+datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cml2hyajp000802l894g7duqo
 slug: getting-started-with-curl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769875030549/81e80f83-fe96-4ff0-b79d-9294de5a1a53.png
-tags: curl, http, api, programming, developers, web-development, cli, devops, backend-development, api-testing, chaicode
+tags: curl, http, api, programming, developers, web-development, cli, devops, backend-development, api-testing
 
 ---
 
