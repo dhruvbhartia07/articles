@@ -6,7 +6,7 @@ datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cml2bu77b000402laeypvcob4
 slug: how-does-a-browser-know-where-a-website-lives
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769864769138/9a41b3d8-efdc-4231-b547-7c1f5b44d3b0.png
-tags: dns, devops, dns-records, web-infrastructure, networkingbasics, chaicode, internetfundamentals
+tags: dns, devops, dns-records, web-infrastructure, networkingbasics, internetfundamentals
 
 ---
 
