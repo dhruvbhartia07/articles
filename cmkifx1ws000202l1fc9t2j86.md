@@ -6,7 +6,7 @@ datePublished: Fri Jan 16 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmkifx1ws000202l1fc9t2j86
 slug: why-version-control-exists-the-pendrive-story-every-developer-has-lived
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768661898397/a2a10ca8-9844-49f0-b665-4336a93a4760.png
-tags: software-development, programming, version-control, git, vcs, learninginpublic, version-control-systems, techlearning, chaicode, developer-mindset, sourcecontrol
+tags: software-development, programming, version-control, git, vcs, learninginpublic, version-control-systems, techlearning, developer-mindset, sourcecontrol
 
 ---
 
