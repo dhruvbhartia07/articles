@@ -6,7 +6,7 @@ datePublished: Fri Jan 16 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
 cuid: cmkigqzke000p02l5ei2id4qr
 slug: understanding-git-why-it-exists-and-how-we-use-it
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768663680031/964603bc-8940-4c7c-91a2-18f7f053fab8.png
-tags: software-development, version-control, git, beginners, developer-tools, git-commands, git-basics, chaicode
+tags: software-development, version-control, git, beginners, developer-tools, git-commands, git-basics
 
 ---
 
