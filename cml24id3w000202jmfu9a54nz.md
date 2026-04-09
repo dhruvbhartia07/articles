@@ -2,7 +2,7 @@
 title: "Understanding Network Devices: How the Internet Reaches Your Device"
 seoTitle: "How Internet Connects to Your Device"
 seoDescription: "Explore how your internet requests travel through modems, routers, switches, firewalls, and more to reach devices securely and reliably"
-datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-30T18:30:00.000Z
 cuid: cml24id3w000202jmfu9a54nz
 slug: understanding-network-devices-how-the-internet-reaches-your-device
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769852391731/1a56f71a-09ac-414b-8b57-6e5a5c109839.png
