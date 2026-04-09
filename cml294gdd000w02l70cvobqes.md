@@ -2,7 +2,7 @@
 title: "How DNS Resolution Works (Using dig to See What’s Actually Happening)"
 seoTitle: "DNS Resolution with dig: A Practical Guide"
 seoDescription: "Discover how DNS converts domain names to IP addresses, how `dig` reveals the process, and explore the full DNS resolution path"
-datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-30T18:30:00.000Z
 cuid: cml294gdd000w02l70cvobqes
 slug: how-dns-resolution-works-using-dig-to-see-whats-actually-happening
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769860168905/7125c9cf-93d5-49b1-89aa-0e1afbc0533a.png
