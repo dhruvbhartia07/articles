@@ -2,7 +2,7 @@
 title: "Understanding Git: Why It Exists and How We Use It"
 seoTitle: "Git Basics: Purpose and Usage Explained"
 seoDescription: "Git: a decentralized version control system, ideal for collaboration and offline work. Learn its evolution and features for efficient coding"
-datePublished: Fri Jan 16 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-16T18:30:00.000Z
 cuid: cmkigqzke000p02l5ei2id4qr
 slug: understanding-git-why-it-exists-and-how-we-use-it
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768663680031/964603bc-8940-4c7c-91a2-18f7f053fab8.png
