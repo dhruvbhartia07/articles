@@ -2,7 +2,7 @@
 title: "Why Version Control Exists: The Pendrive Story Every Developer Has Lived"
 seoTitle: "The Evolution of Version Control Systems"
 seoDescription: "Learn how Git addresses coding challenges, illustrating the importance of version control systems"
-datePublished: Fri Jan 16 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-16T18:30:00.000Z
 cuid: cmkifx1ws000202l1fc9t2j86
 slug: why-version-control-exists-the-pendrive-story-every-developer-has-lived
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768661898397/a2a10ca8-9844-49f0-b665-4336a93a4760.png
