@@ -2,7 +2,7 @@
 title: "Getting Started with cURL"
 seoTitle: "Beginner's Guide to cURL"
 seoDescription: "Learn the basics of using cURL to test backend APIs, troubleshoot servers, and perform requests from the command line"
-datePublished: Fri Jan 30 2026 18:30:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-30T18:30:00.000Z
 cuid: cml2hyajp000802l894g7duqo
 slug: getting-started-with-curl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769875030549/81e80f83-fe96-4ff0-b79d-9294de5a1a53.png
