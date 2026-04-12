@@ -25,12 +25,14 @@ Around the same time, I had also started exploring Kubernetes.
 
 So there were two things happening in parallel:
 
-- seeing apps run on VMs in this structured but slightly heavy setup
-- and learning Kubernetes, without fully understanding where it actually fits
+*   seeing apps run on VMs in this structured but slightly heavy setup
+    
+*   and learning Kubernetes, without fully understanding where it actually fits
+    
 
 I didn't connect these two at that point.
 
----
+* * *
 
 Recently in 2026, while preparing for CKA/CKAD, I found myself thinking about that phase again.
 
@@ -49,8 +51,10 @@ if I can package an app in a container, and use something like systemd to restar
 
 So it would be like:
 
-- container handles packaging
-- systemd handles restarts
+*   container handles packaging
+    
+*   systemd handles restarts
+    
 
 so what exactly is Kubernetes adding here?
 
@@ -58,25 +62,25 @@ I didn't push that thought very far.
 
 I didn't have enough context, and over time it just faded.
 
-> Experiment: Here is a github link with steps if anyone is interested: [lab - docker-systemd-reliability](https://github.com/dhruvbhartia07/devops-lab/tree/main/docker-systemd-reliability)
+> Experiment: Reproducible experiment walkthrough on GitHub - [docker-systemd-reliability](https://github.com/dhruvbhartia07/devops-lab/tree/main/docker-systemd-reliability)
 
----
+* * *
 
 But recently, when I came back to that old thought, I tried to reason through it again.
 
 Q. What if I need more than one instance?
 
--> Okay.. I can probably run multiple containers.
+\-> Okay.. I can probably run multiple containers.
 
 Q. What if they need to run on different machines?
 
--> Hmm.. maybe we need a proxy at each VM for that app, but the exact approach was unclear.
+\-> Hmm.. maybe we need a proxy at each VM for that app, but the exact approach was unclear.
 
 Q. What if one of those machines goes down?
 
--> Now it starts to resemble the old setup, where we can't do much without manual intervention.
+\-> Now it starts to resemble the old setup, where we can't do much without manual intervention.
 
----
+* * *
 
 These questions made me realize:
 
@@ -84,7 +88,7 @@ Earlier, I was thinking about how to run this app properly. My view was limited 
 
 The setup itself isn't failing. It works at an individual level, but it doesn't really answer these new questions - the ones that go beyond a single machine.
 
----
+* * *
 
 And that's where Kubernetes started to make more sense - not as a tool or usage pattern, but in terms of the problem it is actually solving.
 
@@ -94,10 +98,14 @@ I have been using Kubernetes for some time now, learning and adapting it in my d
 
 I knew how to:
 
-- deploy things
-- debug issues
-- check logs
-- fix problems
+*   deploy things
+    
+*   debug issues
+    
+*   check logs
+    
+*   fix problems
+    
 
 And interestingly, those steps haven't really changed even now. What has changed is the depth and design that I see behind the same actions.
 
@@ -105,7 +113,7 @@ And on top of that, the idea of "run something and keep it alive on the machine"
 
 Kubelet is not exactly systemd + Docker and does a lot more, but a part of its responsibility still feels similar: making sure whatever is supposed to run is actually running on the node.
 
----
+* * *
 
 What has changed is how I see what's happening underneath.
 
@@ -115,15 +123,20 @@ Now it feels more like:
 
 > I'm making an API call to a system
 
-- auth details are stored in a context (kubeconfig)
-- there's a control plane
-- components talking to each other
-- state being stored and reconciled
-- decisions being made about where things should run
+*   auth details are stored in a context (kubeconfig)
+    
+*   there's a control plane
+    
+*   components talking to each other
+    
+*   state being stored and reconciled
+    
+*   decisions being made about where things should run
+    
 
 It all feels more real now, instead of just a tool or command line. The architecture and extensibility make more sense beyond just YAML.
 
----
+* * *
 
 It reminds me of how web development is taught.
 
@@ -133,17 +146,21 @@ At first, a browser is just:
 
 Later you realize:
 
-- there's a rendering engine
-- networking layer
-- JS engine
-- parsing, reflow, painting
+*   there's a rendering engine
+    
+*   networking layer
+    
+*   JS engine
+    
+*   parsing, reflow, painting
+    
 
 Same browser.  
 Different understanding.
 
 Feels like I've unlocked a deeper understanding of Kubernetes in a similar way.
 
----
+* * *
 
 And maybe that's why that old Docker + systemd thought came back.
 
